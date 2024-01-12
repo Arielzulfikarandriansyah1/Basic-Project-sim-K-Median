@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-large-large-medium: Inter;
+  --components-button-medium: "DM Sans";
+  --typography-p1: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --components-chip-size: 12px;
+  --components-button-medium-size: 14px;
+  --body-large-large-medium-size: 18px;
+  --heading-heading-4-size: 24px;
+  --body-medium-medium-semibold-size: 16px;
+  --heading-heading-3-size: 32px;
+  --caption-2-caption-2-medium-size: 10px;
+  --caption-1-caption-1-semibold-size: 11px;
+  --font-size-mid-3: 17.3px;
+  --font-size-xs-5: 11.5px;
+  --heading-heading-5-size: 20px;
+
+  /* Colors */
+  --other-primary-background: #fff;
+  --other-border: #e1e6ef;
+  --greyscale-300: #e0e0e0;
+  --text-dark-disabled: #6c717a;
+  --greyscale-700: #616161;
+  --text-dark-secondary: #4a505c;
+  --text-secondary: #484848;
+  --primary-default: #005555;
+  --other-chip-background: rgba(58, 53, 65, 0.08);
+  --other-outlined-border: rgba(58, 53, 65, 0.23);
+  --neutral-400: #8f908e;
+  --neutral-500: #747774;
+  --text-dark-primary: #1d2433;
+  --text-primary: #222325;
+  --secondary-200: #fdf0cc;
+  --primary-100: #e5eeee;
+  --color-silver-100: #bfbfbf;
+  --greyscale-400: #bdbdbd;
+  --other-base-background: #f8f9fc;
+  --other-secondary-background: #f1f3f9;
+  --color-orangered: #fa541c;
+  --color-peachpuff: #ffd8bf;
+  --color-black: #000;
+  --color-darkgray-100: #b3b3b3;
+  --color-darkgray-200: #acacac;
+  --color-darkgray-300: #999;
+
+  /* Gaps */
+  --gap-41xl: 60px;
+  --gap-5xl: 24px;
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-lgi: 19px;
+  --gap-2xs: 11px;
+  --gap-11xs: 2px;
+  --gap-9xs: 4px;
+  --gap-10xs: 3px;
+  --gap-145xl: 164px;
+  --gap-xl: 20px;
+  --gap-61xl: 80px;
+  --gap-4xs: 9px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-37xl: 56px;
+  --padding-7xs: 6px;
+  --padding-3xl: 22px;
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+  --padding-10xs: 3px;
+  --padding-6xs: 7px;
+  --padding-xs: 12px;
+  --padding-7xl: 26px;
+  --padding-8xs: 5px;
+  --padding-29xl: 48px;
+  --padding-mini: 15px;
+  --padding-61xl: 80px;
+  --padding-65xl: 84px;
+  --padding-33xl: 52px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-5xl: 24px;
+  --br-981xl: 1000px;
+  --br-base: 16px;
+  --br-5xs: 8px;
+  --br-45xl: 64px;
+  --br-8xs: 5px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-29xl: 48px;
+  --br-81xl: 100px;
+  --br-980xl: 999px;
+
+  /* Effects */
+  --light-elevation-6: 0px 2px 10px rgba(58, 53, 65, 0.1);
+  --light-elevation-3: 0px 4px 8px -4px rgba(58, 53, 65, 0.42);
+}
+
+/* style.css */
+/* Stil untuk layar lebar */
+@media only screen and (min-width: 768px) {
+  body {
+      font-size: 18px;
+  }
+
+  .container {
+      width: 70%;
+  }
+
+  /* Gaya lainnya di sini */
+}
+
+/* Stil untuk layar sedang */
+@media only screen and (max-width: 767px) {
+  body {
+      font-size: 16px;
+  }
+
+  .container {
+      width: 90%;
+  }
+
+  /* Gaya lainnya di sini */
+}
+
